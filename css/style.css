@@ -1,0 +1,175 @@
+@charset "utf-8";
+.main-container {
+	width: 80%;
+	margin: auto;
+	border: 1px none #000;
+	overflow: auto;
+	background-color:#E5E5E5;
+	height: 100%;
+	box-shadow: 0px 0px 7px #000;
+	z-index: 10;
+	height:100%;
+	padding-top:65px;
+	background-image:url(../Content/bgtry.png)
+}
+#banner table tr td a {
+	width: 80px;
+}
+
+#banner {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-family: museo;
+	font-weight: bold;
+	font-size:50px;
+	background-color: #badd58;
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	z-index: 1000;
+	position: fixed;
+	background-image: url(../Content/buttons/bg.png);
+	height: 65px;
+	background-repeat: repeat-x;
+	width:100%;
+	color:#FFFFFF;
+}
+#banner table tr td a {
+}
+
+
+html {
+	height: 100%;
+}
+
+
+
+.post {
+	font-family: museo;
+	padding-left: 20px;
+	border-radius:5px;
+	margin-bottom:5px;
+	margin-right:10px;
+	margin-left:10px;
+	background-color:#FFF;
+	/*border:1px solid #999;*/
+	box-shadow: 0px 0px 3px #666;
+}
+
+.title {
+	font-size: 24px;
+	font-family: museo;
+	line-height: 50%;
+}
+.post-section {
+	width: 69%;
+	float: right;
+	height: auto;
+	border-left-width: 1px;
+	border-left-style: none;
+	border-left-color: #333;
+	
+}
+#sidebar {
+	float: left;
+	width: 25%;
+	height: 100%;
+	font-family: museo;
+	padding-left:17px;
+}
+@font-face {
+ font-family: 'museo';
+ src: url("../Content/museo.eot"); /* FOR IEs */
+ src: local('museo'), url('../Content/museo.ttf') format('truetype'); /* for other web browsers */
+ }
+ </style>
+ 
+.post-title {
+	font-family: museo;
+	font-size: 30px;
+	font-weight: 900;
+}
+.details {
+	font-family: museo;
+	font-size: 12px;
+}
+a:link {
+	text-decoration:inherit;
+	color: #000;
+	}
+ a:visited {
+	 text-decoration:inherit;
+	 color: #000;
+	 }
+ a:hover {
+	 text-decoration:inherit;
+	 color: #000;
+	 }
+ a:active {
+	text-decoration:inherit;
+	color: #000;
+}
+.login-stuff {
+	font-size: 20px;
+}
+#banner table tr td .login table tr td p {
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+#banner table tr td .login table tr td {
+	font-size: 20px;
+}
+#signup {
+	width: 35%;
+	padding-left: 20px;
+	float: left;
+}
+.main-container .post-section #signup #signup-title {
+	padding-top: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+.main-container .post-section #motto {
+	width: 500px;
+	float: left;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+.main-container .post-section #signup form table {
+	font-family: museo;
+}
+#banner table tr td a {
+	padding-left: 20px;
+	color: #EFEFEF;
+}
+.main-container #sidebar #options form #status {
+	width: auto;
+}
+#notifications{
+	display:none;
+	width:50%;
+	text-align:center;
+	margin:auto;
+}
+body {
+background: #8d8e8e; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM4ZDhlOGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmEyYjJiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-radial-gradient(center, ellipse cover,  #8d8e8e 0%, #2a2b2b 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#8d8e8e), color-stop(100%,#2a2b2b)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #8d8e8e 0%,#2a2b2b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #8d8e8e 0%,#2a2b2b 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #8d8e8e 0%,#2a2b2b 100%); /* IE10+ */
+background: radial-gradient(center, ellipse cover,  #8d8e8e 0%,#2a2b2b 100%); /* W3C */
+
+
+
+
+	background-attachment: fixed;
+	background-position: center;
+	
+}
