@@ -6,8 +6,8 @@ $hostname = '';        // Your MySQL hostname. Usualy named as 'localhost', so y
  $password = '';                 // Your database password. If your database has no password, leave it empty.
  
 // Let's connect to host
- mysql_connect($hostname, $username, $password) or DIE(mysql_error());
+ mysqli_connect($hostname, $username, $password) or DIE(mysqli_error('Error connecting to the db'));
  // Select the database
- mysql_select_db($dbname) or DIE('Database name is not available!');
+ mysqli_select_db($dbname) or DIE('Database name is not available!');
  
 ?>
